@@ -1,0 +1,87 @@
+html{
+    background-color:wheat;
+    -ms-overflow-style: none;    /* IE, Edge 対応 */
+    scrollbar-width: none;       /* Firefox 対応 */
+}
+
+html::-webkit-scrollbar {  /* Chrome, Safari 対応 */
+    display:none;
+}
+
+svg{
+    background-color: azure;
+}
+
+.svg_code{
+    background-color: white;
+    overflow: scroll;
+    height: 480px;
+    margin-top: 17px;
+    border-radius: 10px;
+    -ms-overflow-style: none;    /* IE, Edge 対応 */
+    scrollbar-width: none;       /* Firefox 対応 */
+}
+
+.svg_code::-webkit-scrollbar{
+    display:none;
+}
+
+.links{
+    display: inline-block;
+    cursor: pointer;
+    color: blue;
+    text-decoration: none;
+    transition: 0.2s;
+    margin-left: 20px;
+}
+
+.links:hover{
+    color:darkblue;
+    transition: 0.5s;
+}
+
+.start_link{
+    margin-left: -3px;
+}
+
+.buttons{
+    width: 100px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.buttons:hover{
+    background-color: darkgray;
+    transition: 0.5s;
+}
+
+.selector{
+    width: 100px;
+    height: 20px;
+    background-color: whitesmoke;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.selector:hover{
+    background-color: darkgray;
+    transition: 0.5s;
+}
+
+.selector:active{
+    background-color:darkslategray;
+    transition: 0.2s;
+}
+
+.wrap {
+    margin-left: -3%;
+    margin-right: 2%;
+    display:flex;
+    justify-content:space-between;
+}
+
+.main{
+    margin-left: 5%;
+}
