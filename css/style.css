@@ -10,6 +10,7 @@ html::-webkit-scrollbar {  /* Chrome, Safari 対応 */
 
 svg{
     background-color: azure;
+    border-radius: 10px;
 }
 
 .svg_code{
